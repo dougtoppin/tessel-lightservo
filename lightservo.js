@@ -4,6 +4,9 @@
  to indicate if the light level is (a subjective
  value) on or off. The leds will also indicate
  the light sensor detection.
+
+ If the light is on the servo will be turned in a clockwise direction
+ to a fixed point and if off counterclockwise to a fixed point.
  *********************************************/
 
 var tessel = require('tessel');
